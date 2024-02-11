@@ -4,19 +4,18 @@ using UnityEngine;
 
 public class BoardMovement : MonoBehaviour
 {
-    // Start is called before the first frame update
     void Start()
     {
-        
+       
     }
 
-    // Update is called once per frame
+// Update is called once per frame
     void Update()
     {
-        
+                             //movement of the player only 
         if (Input.GetKeyDown(KeyCode.W)) {
             Debug.Log("W key was pressed");
-            transform.position += new Vector3(-0f,-0f,-1f);
+            transform.position += new Vector3(0f,0f,-1f); 
         }
 
           if (Input.GetKeyDown(KeyCode.S)) {
@@ -34,7 +33,5 @@ public class BoardMovement : MonoBehaviour
             transform.position += new Vector3(-1f,0f,0f);
         }
 
-
-    
     }
 }
