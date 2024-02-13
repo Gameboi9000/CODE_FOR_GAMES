@@ -13,7 +13,7 @@ public Transform Testing_Hazard;
     {
  	//first store the position in a temporary variable
     	tempPos = transform.position;
-    	speed = 0.01;
+    
 
     }
 
