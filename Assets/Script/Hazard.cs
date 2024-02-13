@@ -8,10 +8,10 @@ public class Hazard : MonoBehaviour
     public Transform hazard_0,hazard_1, hazard_3, hazard_5,hazard_2, hazard_4, hazard_6, boardHazard_0, winningTile;     
     
     Vector3 startPos; //inital position of the player
-
     void Start()
     {
         startPos = transform.position; //able to store the inital position startPos 
+        Debug.Log("StartInitalPos:" + startPos);
     }
 
     void Update()
@@ -22,7 +22,7 @@ public class Hazard : MonoBehaviour
 
             //player positions is checking if the cube Hazard_0 is true
         if (transform.position == hazard_0.position) {
-            Debug.Log("I'm in the position -HAZARD_0");
+            Debug.Log("I'm in the position -HAZARD_0" + "startPos =" + startPos);
             transform.position = startPos; //When we are at the hazard update the position
         }
 
@@ -35,15 +35,15 @@ public class Hazard : MonoBehaviour
             transform.position = startPos; 
         }
         else if (transform.position == hazard_6.position) {
-            Debug.Log("I'm in the position -HAZARD_6");
+            Debug.Log("I'm in the position -HAZARD_6  + startPos:+");
             transform.position = startPos; 
         }
          else if (transform.position == hazard_1.position) {
-            Debug.Log("I'm in the position -HAZARD_1");
+            Debug.Log("I'm in the position -HAZARD_1  + startPos:+");
             transform.position = startPos; 
         }
          else if (transform.position == hazard_3.position) {
-            Debug.Log("I'm in the position -HAZARD_3");
+            Debug.Log("I'm in the position -HAZARD_3  + startPos:" + startPos);
             transform.position = startPos; 
         }
          else if (transform.position == hazard_5.position) {
@@ -52,8 +52,8 @@ public class Hazard : MonoBehaviour
         }
 
         else if(transform.position == boardHazard_0.position) {
-            Debug.Log("I'm on the BoardHazard_0 position, Will do something bad soon");
-            transform.position = startPos; 
+            Debug.Log("I'm on the BoardHazard_0 position, Will do something bad soon" + startPos + ":startPos");
+            transform.position = startPos;
         }
         else if(transform.position == winningTile.position) {
             Debug.Log("I'm on the winning tile position, will go to the next level soon");
