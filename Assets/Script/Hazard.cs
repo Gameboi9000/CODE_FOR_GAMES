@@ -5,7 +5,7 @@ using UnityEngine;
 public class Hazard : MonoBehaviour
 {
 
-    public Transform hazard_0,hazard_1, hazard_3, hazard_5,hazard_2, hazard_4, hazard_6, boardHazard_0, winningTile, world_art;     
+    public Transform hazard_0,hazard_1, hazard_3, hazard_5,hazard_2, hazard_4, hazard_6, boardHazard_0, winningTile;     
     
     Vector3 startPos; //inital position of the player
 
@@ -59,10 +59,7 @@ public class Hazard : MonoBehaviour
             Debug.Log("I'm on the winning tile position, will go to the next level soon");
 
         }
-        else if(transform.position == world_art.position) {
-            Debug.Log("player is interacting with world_art instance of the class hazard");
-
-        }
+        
     
     
     }
