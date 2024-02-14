@@ -23,9 +23,9 @@ public Transform Testing_Hazard;
     	//axis on the board Z = 0-6 0 Is furthest to the right, 6 is the left end
     	// X = 0-5 , Y = up & down
     	if(transform.position == Testing_Hazard.position) {
-    		tempPos.x =1 ;
+    		tempPos.x =2 ;
     		tempPos.z =0;
-    		tempPos.y =0;
+    		tempPos.y =1;
     		transform.position = tempPos;
 
     	}
