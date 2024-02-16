@@ -18,8 +18,10 @@ public class LightMoving : MonoBehaviour
     {
         Vector3 xPos = startingPosition;
 
-        xPos.x += distanceToCover * Mathf.Sin(Time.time * speed);
+        xPos.x += distanceToCover * Mathf.Cos(Time.time * speed);
 
         transform.position = xPos;
+
+
     }
 }
