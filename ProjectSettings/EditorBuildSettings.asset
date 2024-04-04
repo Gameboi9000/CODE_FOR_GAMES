@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Alice_Boardgame.unity
+    guid: 51bf514bcb6fa4cd594123f10c5d4e08
   m_configObjects: {}

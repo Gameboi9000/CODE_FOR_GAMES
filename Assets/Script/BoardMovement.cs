@@ -23,13 +23,13 @@ public class BoardMovement : MonoBehaviour
             transform.position += new Vector3(0f,0f,1f);
         }
 
-         if (Input.GetKeyDown(KeyCode.Q)) {
-            Debug.Log("Q key was pressed");
+         if (Input.GetKeyDown(KeyCode.A)) {
+            Debug.Log("A key was pressed");
             transform.position += new Vector3(1f,0f,0f);
         }
 
-         if (Input.GetKeyDown(KeyCode.E)) {
-            Debug.Log("E key was pressed");
+         if (Input.GetKeyDown(KeyCode.D)) {
+            Debug.Log("D key was pressed");
             transform.position += new Vector3(-1f,0f,0f);
         }
 
