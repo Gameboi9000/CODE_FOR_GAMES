@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Hazard_Movement : MonoBehaviour
 {
-
+//Board game exercise
 public Transform Testing_Hazard;   
 
  Vector3 tempPos;

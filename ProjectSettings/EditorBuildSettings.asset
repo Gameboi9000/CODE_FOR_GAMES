@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Alice_Boardgame.unity
     guid: 51bf514bcb6fa4cd594123f10c5d4e08
+  - enabled: 0
+    path: Assets/Zoo_Finalproject.unity
+    guid: 5d1fad8c4e2304e7895fe12cdae73b36
+  - enabled: 0
+    path: Assets/Partyanimator.unity
+    guid: d322acdf8c69145c2bea87dc6849568e
   m_configObjects: {}
